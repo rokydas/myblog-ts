@@ -1,0 +1,31 @@
+input, textarea {
+    box-shadow: none;
+    border: 2px solid lightgray;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.insert-form input, .insert-form textarea {
+    width: 800px;
+    
+}
+
+.search-input {
+    width: 500px;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid lightgray;
+    box-shadow: none;
+    outline: none;
+}
+
+@media (max-width: 800px) {
+    .insert-form input, .insert-form textarea {
+        width: 400px;
+    }
+
+    .search-input {
+        width: 300px;
+    }
+}
